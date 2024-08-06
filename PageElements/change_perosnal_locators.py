@@ -1,0 +1,10 @@
+class change_personal_locator():
+    accoutnBtnX = "//android.widget.TextView[@text='Account']"
+    personalInfoBtnX = "//android.widget.TextView[@text='Personal Information']"
+    firstNameX = "//android.widget.EditText[@hint='Enter first name. e-g John']"
+    lastNameX = "//android.widget.EditText[@hint='Enter last name. e-g Doe']"
+    ethnicityX = "//android.widget.TextView[@bounds='[1217,1197][1301,1281]']"
+    ethnicityChooseX = "//android.widget.TextView[@text='Caucasian']"
+    icNumX = "//android.widget.EditText[@hint='E.g. 950310111111']"
+    genderX = "//android.widget.TextView[@text='Female']"
+    saveBtnX = "//android.widget.TextView[@text='Save & Continue']"

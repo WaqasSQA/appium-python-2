@@ -1,0 +1,16 @@
+'app': 'C:/Users/dev/Desktop/patientapp-v3-react-native/app/BM-Internal 29 Sep.apk',
+
+
+
+        list_of_values = ethnicity_dropdown.find_elements(By.XPATH, "//android.widget.TextView")
+        print((len(list_of_values)))
+
+        expected_list = []
+        actual_list = []
+
+        for value in list_of_values:
+            ele_name = value.get_attribute("text")
+            print(ele_name)
+            actual_list.append(ele_name)
+        print(actual_list)
+        assert expected_list == actual_list, "Values do not match"
